@@ -9,7 +9,8 @@ accordionContent.forEach((item, index) => {
 
     let questionText = item.querySelector(".question-text");
     if (item.classList.contains("open")) {
-      questionText.style.height = `100px`;
+      questionText.style.height = `100%`;
+      questionText.style.padding = "10px 0 20px 0";
       questionText.style.display = "block";
 
       item
